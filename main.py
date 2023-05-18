@@ -2,8 +2,7 @@
 # импортируем функцию run_screensaver().
 
 """
-A multi-line
-docstring.
+Использование персонажей.
 """
 
 from random import randint
@@ -13,8 +12,7 @@ from graphic_arts.start_game_banner import run_screensaver
 
 def attack(char_name: str, char_class: str) -> str:
     """
-    A multi-line
-    docstring.
+    Применяет атаку.
     """
     if char_class == 'warrior':
         return (f'{char_name} '
@@ -33,8 +31,7 @@ def attack(char_name: str, char_class: str) -> str:
 
 def defence(char_name: str, char_class: str) -> str:
     """
-    A multi-line
-    docstring.
+    Применяет защиту.
     """
     if char_class == 'warrior':
         return (f'{char_name} блокировал {10 + randint(5, 10)} урона')
@@ -50,8 +47,7 @@ def defence(char_name: str, char_class: str) -> str:
 
 def special(char_name: str, char_class: str) -> str:
     """
-    A multi-line
-    docstring.
+    Применяет спецнавык.
     """
     if char_class == 'warrior':
         return (f'{char_name} '
@@ -68,8 +64,7 @@ def special(char_name: str, char_class: str) -> str:
 
 def start_training(char_name: str, char_class: str) -> str:
     """
-    A multi-line
-    docstring.
+    Тренирует.
     """
     if char_class == 'warrior':
         print(f'{char_name}, ты Воитель — отличный боец ближнего боя.')
@@ -103,8 +98,7 @@ def start_training(char_name: str, char_class: str) -> str:
 
 def choice_char_class() -> str:
     """
-    A multi-line
-    docstring.
+    Выбирает персонажа.
     """
     approve_choice: str = ''
     char_class: str = ''
